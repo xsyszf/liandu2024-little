@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 from typing import Tuple, List, Optional
 
 # ==============================================================================
-# 1. Go源码解析模块
+# 1. Go 源码解析模块
 # ==============================================================================
 
 class GoTransformParser:
