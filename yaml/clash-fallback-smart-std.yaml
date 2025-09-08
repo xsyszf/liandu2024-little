@@ -130,41 +130,40 @@ dns:
   fake-ip-range: 198.20.0.1/16
   nameserver:
     - 223.5.5.5
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - +.lan
     - +.local
     - geosite:cn
 # 快猫    
-    - +.quickcht3.club
-    - +.kuaimao2.club
+    - +.km688.ink
 # 火烧 
     - +.onesubv.site
     - +.oneyyds.online
     - +.fengyyds.site
     - +.onemg.top    
 # 猫耳 
-    - +.zhunchuanpb.com
-    - +.sevenka.top
+    - +.chybinc.com
 # BestVPN 
-    - +.networklinkpro.net
-    - +.prosubnet02.eu
+    - +.invitevp.com
+    - +.vp2.us
 # 小牛
-    - +.4yfu73r3a4kl.com
     - +.xiaoniuyun.cc  
 # 硅谷
-    - +.huawei-cloud.shop
-    - +.huawei-cloud.vip
-    - +.gpt-agent.cc      
+    - +.apple-bing.sbs  
 # 无界
-    - +.acwct.cn
-    - +.472361.xyz
+    - +.bncrcloud.com
 # 冰云
-    - +.bingyun.ink   
-    - +.fafhjkah.xyz
+    - +.xby01.xyz
 # 牛逼   
-    - +.66jc.top  
-    - +.jueduibupao.top  
-    
+    - +.idsduf.com  
+    - +.66jc.top
+# 极速通        
+    - +.gfw.gg
+# 萌狗       
+    - +.moedog.cloud
+
+# 其他     
     - +.ynhtbank.com
     - +.qeayr.cn
     - +.saojc.xyz   
@@ -173,6 +172,7 @@ dns:
     - +.0tk8a3a1q4t94dler.com    
     - +.aerianas.top
     - +.gptacg.top
+    - +.wxda.net
 
 ipv6: false
 
@@ -533,3 +533,4 @@ rule-providers:
 #  Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
 #  Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
