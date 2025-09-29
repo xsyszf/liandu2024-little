@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  SELF:
-    优速通: "机场订阅地址"  
+  优速通:
+    url: "机场订阅地址"  
     type: http
     interval: 86400
     health-check:
